@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../ui/tabs";
 import { Calendar, Trophy, Activity } from "lucide-react";
 import { useLiveScores } from "../hooks/useLiveScores";
 import { useStandings } from "../hooks/useStandings";
